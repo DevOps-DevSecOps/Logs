@@ -1,1 +1,17 @@
+ELK stack provides centralized logging in order to identify problems with servers or applications.
 
+[Elasticsearch]
+It used for storing logs.
+It is a NoSQL database. 
+It t is built with RESTful APIS and It has REST API web-interface with JSON output.
+
+[Logstash]
+It used for both shipping as well as processing and storing logs.
+It is the data collection.
+It collects data inputs and feeds into the Elasticsearch.
+It gathers all types of data from the different source and makes it available for further use.
+
+[Kibana]
+It is a data visualization tool (a web interface).
+It uses Elasticsearch DB to Explore, Visualize, and Share.
+It can be used for search, view, and interact with data stored in Elasticsearch directories.
