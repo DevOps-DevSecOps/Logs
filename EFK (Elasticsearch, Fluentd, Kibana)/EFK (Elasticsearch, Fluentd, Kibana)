@@ -11,4 +11,4 @@ It collect and aggregate all the logging data on each  node and ships that into 
 It provide a dashboard for Elasticsearch for visualization and analysis.
 
 [Workflow]
-Fluentd (Node - Kubernetes / Helm - Container logs and System logs) ----> Elasticsearch (log indexing and database staorage) ----> Kibana (visualization and analysis)
+Fluentd (Server/Containerization - Logs) ----> Elasticsearch ----> Kibana
