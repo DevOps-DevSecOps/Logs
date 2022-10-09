@@ -17,7 +17,7 @@ It uses Elasticsearch DB to Explore, Visualize, and Share.
 It can be used for search, view, and interact with data stored in Elasticsearch directories.
 
 [Workflow]
-The workflow ELK using Beats.
+The workflow ELK using different types of Beats.
 Server/Containerization (Filebeat - Log Files) ------------ship data-------------->
                                                                                   |
                                                                                   |
