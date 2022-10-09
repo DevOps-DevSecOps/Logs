@@ -1,4 +1,4 @@
-The EFK (Elasticsearch, Fluentd, Kibana) also known as logging pipeline.
+EFK (Elasticsearch, Fluentd, Kibana) also known as logging pipeline.
 
 [Elasticsearch]
 It search engine using distributed data storage to index and store the logging data heap from each node.
