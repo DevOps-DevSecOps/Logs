@@ -18,10 +18,10 @@ It can be used for search, view, and interact with data stored in Elasticsearch 
 
 [Workflow]
 The workflow ELK using Beats.
-Server1 (Filebeat - Log Files) ------------ship data------------->
-                                                                 |
-                                                                 |
-Server2 (Metricbeat - System Metrics) -----ship data--------> Logstash --------> Elasticsearch --------> Kibana
-                                                                 |
-                                                                 |
-Server3 (Packetbeat - Network Packets) ----ship data------------->
+Server/Containerization (Filebeat - Log Files) ------------ship data-------------->
+                                                                                  |
+                                                                                  |
+Server/Containerization (Metricbeat - System Metrics) -----ship data--------> Logstash --------> Elasticsearch --------> Kibana
+                                                                                  |
+                                                                                  |
+Server/Containerization (Packetbeat - Network Packets) ----ship data-------------->
