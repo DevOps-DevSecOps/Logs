@@ -6,3 +6,15 @@ In Splunk instance Web UI
                 Product
 
 [Universal Forwarders]
+It provide reliable, secure data collection from remote sources and forward the data into Splunk software for indexing and consolidation.
+                                            Splunk Enterprice Server
+                                IP: 172.17.1.11         |
+                                                        | (install Splunk Enterprice into Server)
+                                                        |
+                               ---------------------------------------------------
+                               |                        |                        |
+                               |                        |                        |
+                               |                        |                        |
+                          Web Server                DB Server               File Server
+                       IP: 172.17.1.12           IP: 172.17.1.13          IP: 172.17.1.14
+Then install Splunk Universal Forwarders in 3 (Web, DB, File) Servers.
