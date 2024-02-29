@@ -3,7 +3,9 @@ Suppose does not have any ifrastructure like Server, Workstation, PC, Physical V
 The Splunk Cloud will launch instance and installed and configured with an Splunk Enterprice Package automatically take care everything Splunk only.
 Just we need to only access the instance for Web UI Dashboard will not ask login credentials. 
 In Splunk instance Web UI 
-                Product
+                PRODUCT           SIZES      START_DATE      EXPRIATION_DATE      INSTANCE_NAME
+                splunk>cloud      5GB        Mar 01          Mar 16               myinstance                ACCESS INSTANCE
+Now clickon the "ACCESS INSTANCE".
 
 [Universal Forwarders]
 It provide reliable, secure data collection from remote sources and forward the data into Splunk software for indexing and consolidation.
